@@ -1,0 +1,9 @@
+C:\Users\הראל\Desktop\WebSunglass\DataLibary\bin\Debug\DataLibary.dll
+C:\Users\הראל\Desktop\WebSunglass\DataLibary\bin\Debug\DataLibary.pdb
+C:\Users\הראל\Desktop\WebSunglass\DataLibary\obj\Debug\DataLibary.csprojAssemblyReference.cache
+C:\Users\הראל\Desktop\WebSunglass\DataLibary\obj\Debug\DataLibary.csproj.CoreCompileInputs.cache
+C:\Users\הראל\Desktop\WebSunglass\DataLibary\obj\Debug\DataLibary.dll
+C:\Users\הראל\Desktop\WebSunglass\DataLibary\obj\Debug\DataLibary.pdb
+C:\Users\הראל\Desktop\WebSunglass\DataLibary\bin\Debug\Dapper.dll
+C:\Users\הראל\Desktop\WebSunglass\DataLibary\bin\Debug\Dapper.xml
+C:\Users\הראל\Desktop\WebSunglass\DataLibary\obj\Debug\DataLibary.csproj.CopyComplete
