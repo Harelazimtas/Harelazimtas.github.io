@@ -1,0 +1,11 @@
+﻿body {
+}
+
+table,tr,td{
+    margin: 10px;
+    padding: 10px;
+    text-align: right;
+}
+input[type=number] {
+    width: 100%;
+}

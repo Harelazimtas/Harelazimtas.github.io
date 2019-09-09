@@ -1,0 +1,36 @@
+﻿
+
+div.Inner {
+    margin: 0px 5px 100px 5px;
+}
+
+.tableDetail {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.rowDetail :hover {
+    background: red;
+    border-collapse: inherit;
+}
+
+.widthDetail {
+    width: 150px;
+    border: 1px solid black;
+}
+
+
+
+td.widthDetail {
+    text-align: left;
+}
+
+.tableRegister{
+    border: 0px;
+    margin: 20px 5px;
+
+}
+
+tr.tableRegister{
+    margin: 5px;
+}
