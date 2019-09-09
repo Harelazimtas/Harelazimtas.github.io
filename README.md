@@ -18,7 +18,7 @@
   </br>
     Content- contain CSS and image.
   </br>
-      <h6>MVC</h6> is Model View Controller.
+    MVC is Model View Controller.
   </br>
     Controllers- A class that deals with user requests, usually used by the viewer.
       The Controller is responsible for responding to the requests and directing to the appropriate view.
