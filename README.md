@@ -18,10 +18,15 @@
   </br>
     Content- contain CSS and image.
   </br>
+    <h6>MVC</h6> is Model View Controller.
+  </br>
     Controllers- A class that deals with user requests, usually used by the viewer.
       The Controller is responsible for responding to the requests and directing to the appropriate view.
       It is also the mediator between the model and the view.
    </br>
     Views- The Views folder contains a sharing folder that contains HTML files that are shared for some HTML files.
       The View is basically what is shown to the user ie user interface.
+   </br>
+    Models- The model represents the data and retains the application data.
+      Usually the files saved to SQL are the models.
 </pre>
