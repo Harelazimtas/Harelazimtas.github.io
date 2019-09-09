@@ -25,7 +25,7 @@
       It is also the mediator between the model and the view.
    </br>
     Views- The Views folder contains a sharing folder that contains HTML files that are shared for some HTML files(Layout).
-      The View is basically what is shown to the user ie user interface.
+      The View is basically what is shown to user ie user interface.
    </br>
     Models- The model represents the data and retains the application data.
       Usually the files saved to SQL are the models.
