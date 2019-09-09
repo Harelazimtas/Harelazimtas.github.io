@@ -24,9 +24,43 @@
       The Controller is responsible for responding to the requests and directing to the appropriate view.
       It is also the mediator between the model and the view.
    </br>
-    Views- The Views folder contains a sharing folder that contains HTML files that are shared for some HTML files.
+    Views- The Views folder contains a sharing folder that contains HTML files that are shared for some HTML files(Layout).
       The View is basically what is shown to the user ie user interface.
    </br>
     Models- The model represents the data and retains the application data.
       Usually the files saved to SQL are the models.
+</pre>
+<h3>Description of files and classes in the project.</h3>
+<pre>
+  Views/Home
+    Index- is home page.
+    Contact- to contact with the website owner.
+    About- about the website owner.
+    SignUp- to sign up to Website that allow you to login and to enter the shop, and buy or sell sunglass.
+    Login- to enter the shop.
+  </br>
+  Views/Shop
+    Homepage-allow to manage your item in the shop like add item and watch them and other things.
+    Exit- to exit shop and back to Views/Home.
+    Shop- contain all item to buy of all user Website.  
+</pre>
+</br>
+<pre>
+  Content:
+    HomeShop.css-is for Home shop(view).
+    LoginCustomer.css if for Login(view).
+  </br>
+  Layout:
+      CustomerShop.css: is for all Views/Shop.
+      Layout.css: is for all Views/Home.
+</pre>
+</br>
+<pre>
+    Class:
+      WebSunglass/Models/Customer: the Customer class is for signup view,contain  the information of customer 
+      that sign up to website.
+    </br>
+      DataLibary/Models/CustomerModel: contain the data of the customer that will save in the SQL Server.
+      DataLibary/Logic/CustomerProcessor: contain the logic of save customer to SQL Server.
+      DataLibary/DataAccess/SqlDataAccess: to connect SQL Server and save/execute query.
 </pre>
