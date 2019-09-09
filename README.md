@@ -32,31 +32,31 @@
 </pre>
 <h3>Description of files and classes in the project.</h3>
 <pre>
-  Views/Home
+  <h5>Views/Home:</h5>
     Index- is home page.
     Contact- to contact with the website owner.
     About- about the website owner.
     SignUp- to sign up to Website that allow you to login and to enter the shop, and buy or sell sunglass.
     Login- to enter the shop.
   </br>
-  Views/Shop
+  <h5>Views/Shop:</h5>
     Homepage-allow to manage your item in the shop like add item and watch them and other things.
     Exit- to exit shop and back to Views/Home.
     Shop- contain all item to buy of all user Website.  
 </pre>
 </br>
 <pre>
-  Content:
+  <h5>Content:</h5>
     HomeShop.css-is for Home shop(view).
     LoginCustomer.css if for Login(view).
   </br>
-  Layout:
+  <h5>Layout:</h5>
       CustomerShop.css: is for all Views/Shop.
       Layout.css: is for all Views/Home.
 </pre>
 </br>
 <pre>
-    Class:
+    <h5>Class:/h5>
     </br>
       WebSunglass/Models/Customer: the Customer class is for signup view,contain  the information of customer 
       that sign up to website.
@@ -68,7 +68,7 @@
 </pre>
 </br>
 <pre>
-  Controller:
+  <h5>Controller:</h5>
     Home: His job is to be in charge of the Views, which is under the HOME folder.
     Shop:  His job to be in charge of the Views, which is under the Shop folder.
 </pre>
