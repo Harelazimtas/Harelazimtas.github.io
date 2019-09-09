@@ -57,7 +57,6 @@
 </br>
 <pre>
     <h5>Class:</h5>
-    </br>
       WebSunglass/Models/Customer: the Customer class is for signup view,contain  the information of customer 
       that sign up to website.
       WebSunglass/Models/Product: the item that customer upload to the shop.
