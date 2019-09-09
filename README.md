@@ -57,10 +57,18 @@
 </br>
 <pre>
     Class:
+    </br>
       WebSunglass/Models/Customer: the Customer class is for signup view,contain  the information of customer 
       that sign up to website.
+      WebSunglass/Models/Product: the item that customer upload to the shop.
     </br>
       DataLibary/Models/CustomerModel: contain the data of the customer that will save in the SQL Server.
       DataLibary/Logic/CustomerProcessor: contain the logic of save customer to SQL Server.
       DataLibary/DataAccess/SqlDataAccess: to connect SQL Server and save/execute query.
+</pre>
+</br>
+<pre>
+  Controller:
+    Home: His job is to be in charge of the Views, which is under the HOME folder.
+    Shop:  His job to be in charge of the Views, which is under the Shop folder.
 </pre>
