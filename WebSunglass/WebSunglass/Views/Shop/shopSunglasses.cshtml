@@ -1,0 +1,57 @@
+﻿@model IEnumerable<WebSunglass.Models.Product>
+
+@{
+    ViewBag.Title = "shop Sunglasses";
+    Layout = "~/Views/Shared/_LayoutShop.cshtml";
+}
+<link href="~/Content/HomeShop.css" rel="stylesheet" />
+<script src="~/Scripts/Shop.js" type="text/javascript"></script>
+
+<div class="Inner">
+
+    <h2>shop Sunglasses</h2>
+
+    <table class="tableDetail">
+        <tr class="rowDetail">
+            <th class="widthDetail">
+                Number
+            </th>
+            <th class="widthDetail">
+                Name Of Item
+            </th>
+            <th class="widthDetail">
+                Type
+            </th>
+            <th class="widthDetail">
+                Price
+            </th>
+            <th class="widthDetail">
+                Image
+            </th>
+        </tr>
+        @{
+            var y = 0;
+        }
+        @foreach (var item in Model)
+        {
+            y = y + 1;
+            <tr class="rowDetail">
+                <td class="widthDetail">
+                    @y
+                </td>
+                <td class="widthDetail">
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td class="widthDetail">
+                    @Html.DisplayFor(modelItem => item.Type)
+                </td>
+                <td class="widthDetail">
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td class="imageDetail">
+                    <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="~/Content/ImageShop/@Html.DisplayFor(modelItem => item.Image)" class="imageDetail">
+                </td>
+            </tr>
+        }
+    </table>
+</div>

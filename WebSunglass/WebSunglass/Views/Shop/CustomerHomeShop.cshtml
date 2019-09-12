@@ -1,0 +1,112 @@
+﻿@model List<WebSunglass.Models.Product>
+@{
+    Layout = "~/Views/Shared/_LayoutShop.cshtml";
+
+}
+<link href="~/Content/HomeShop.css" rel="stylesheet" />
+<script src="~/Scripts/Shop.js" type="text/javascript"></script>
+<div class="Inner">
+    <h1>
+        Welcome
+        @{
+            var x = Model.ElementAt(Model.Count - 1);
+            @TempData["" + x.Id];
+        }
+
+    </h1>
+</div>
+<div class="Inner">
+    <form onsubmit="return alertAddProduct()" name="InsertItem" action="CustomerHomeShop" method="post" new { enctype="multipart/form-data" }>
+        <table class="tableRegister">
+            <tr>
+                <td>
+                    <label for="Name">Name</label>
+                </td>
+                <td>
+                    <input type="text" name="Name" id="Name" required />
+                    <input type="number" name="Id" id="Id" value=@TempData["idCustomer"] hidden />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Price">Price</label>
+                </td>
+                <td>
+                    <input type="number" name="Price"  min="1" max="1000000" required />
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="file">Upload Image</label>
+                </td>
+                <td>
+                    <input type="file" accept="Image/*" name="Image" id="Image" required />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Type">Type</label>
+                </td>
+                <td>
+                    <select id="Type" name="Type">
+                        <option value="Man">Man</option>
+                        <option value="Woman">Woman</option>
+                        <option value="All">All</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Sumbit" />
+    </form>
+</div>
+
+<div class="Inner">
+    <h2> Your product</h2>
+    <table class="tableDetail">
+        <tr class="rowDetail">
+            <th class="widthDetail">
+                Number
+            </th>
+            <th class="widthDetail">
+                Name Of Item
+            </th>
+            <th class="widthDetail">
+                Type
+            </th>
+            <th class="widthDetail">
+                Price
+            </th>
+            <th class="widthDetail">
+                Image
+            </th>
+        </tr>
+        @foreach (WebSunglass.Models.Product product in Model)
+        {
+            if (product.ProductId != -1)
+            {
+                <tr class="rowDetail">
+                    <td class="widthDetail">
+                        @product.ProductId
+                    </td>
+                    <td class="widthDetail">
+                        @product.Name
+                    </td>
+                    <td class="widthDetail">
+                        @product.Type
+                    </td>
+                    <td class="widthDetail">
+                        @product.Price
+                    </td>
+                    <td class="imageDetail"  >
+                        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="~/Content/ImageShop/@product.Image" class="imageDetail"  />
+                    </td>
+                </tr>
+            }
+
+        }
+    </table>
+</div>
+
+
+
