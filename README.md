@@ -18,7 +18,7 @@
   </br>
     App_start- Contains classes that will run when the applection starts, usually Config files.
   </br>
-    Content- contain CSS and image.
+    Content- contain CSS and images.
   </br>
     MVC is Model View Controller.
   </br>
@@ -44,12 +44,12 @@
   <h5>Views/Shop:</h5>
     Homepage-allow to manage your item in the shop like add item and watch them and other things.
     Exit- to exit shop and back to Views/Home.
-    Shop- contain all item to buy of all user Website.  
+    ShopSunglasses- contain all item to buy of all user Website ,but you can't see only your items in global shop.  
 </pre>
 </br>
 <pre>
   <h5>Content:</h5>
-    HomeShop.css-is for Home shop(view).
+    HomeShop.css-is for Home shop and shop sunglasses(view).
     LoginCustomer.css if for Login(view).
   </br>
   <h5>Layout:</h5>
