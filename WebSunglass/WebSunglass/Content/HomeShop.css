@@ -1,0 +1,51 @@
+﻿
+body {
+    background: linear-gradient(45deg, cadetblue, #00000003);
+}
+div.Inner {
+    margin: 0px 10px 100px 50px;
+}
+
+.tableDetail {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+.rowDetail {
+    border-collapse: inherit;
+    
+}
+
+.widthDetail {
+    width: 150px;
+    border: 1px solid black;
+}
+.imageDetail {
+    text-align: center;
+    border: 1px solid black;
+    width: 120px;
+    height: 120px;
+}
+
+h2 {
+    position:relative;
+    margin: 5px 0px 10px 300px;
+}
+
+td.widthDetail {
+    text-align:left;
+    font-size: 15px;
+}
+
+.tableRegister {
+    border: 0px;
+    margin: 20px 5px;
+}
+
+tr.tableRegister{
+    margin: 5px;
+}
+
+input[type=number] {
+    width: 64%;
+}
+
