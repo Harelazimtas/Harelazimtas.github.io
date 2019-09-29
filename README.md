@@ -1,4 +1,4 @@
-# Web-Sunglasses-shop (unfinished)
+# Web-Sunglasses-Shop (unfinished)
 <p>
   In this project ,I use in: HTML, CSS, JS, SQL . 
   
